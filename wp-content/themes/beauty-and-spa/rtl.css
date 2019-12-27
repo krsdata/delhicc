@@ -1,0 +1,415 @@
+/*
+Theme Name: Beauty and Spa
+Theme URI: https://d5creation.com/theme/beautyandspa
+
+Author: D5 Creation
+Author URI: https://d5creation.com
+
+Description: Beauty and Spa is a CSS3 Powered and WordPress Latest Version Ready Theme for Beauty Salon and Massage Parlors. It can also be used in any Small Business to Corporate Business. Beauty and Spa Theme is E-Commerce Ready by WooCommerce
+
+Version: 1.9
+
+Tags: two-columns, right-sidebar, custom-header, featured-images, entertainment, holiday, custom-background, custom-menu, threaded-comments, sticky-post, rtl-language-support, portfolio, full-width-template, theme-options 
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Beauty and Spa WordPress Theme, Copyright 2012-2017: D5 Creation (www.d5creation.com)
+Beauty and Spa is distributed under the terms of the GNU GPL
+
+Text Domain: beauty-and-spa
+
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align:right;
+}
+
+.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.wp-caption.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+
+#header.smallheader {
+	right: 0;
+	left: auto;
+}
+
+img.site-logo, h1.site-title, img.custom-logo {
+	float:right;
+}
+
+.content {
+	float:right;
+}
+
+#left-sidebar {
+	float:left;
+}
+
+/*..... Main Menu
+-------------------------------------------------- */
+#main-menu-con {
+	float:left;
+}
+
+#main-menu-con li {
+	float:right;
+}
+
+#main-menu-con li ul {
+	float:right;
+}
+
+#main-menu-con ul ul,
+.sub-menu, .sub-menu ul ul {
+	float:right;
+	right:0;
+	left: auto;
+}
+
+#main-menu-con ul ul ul {
+	right:100%;
+	left: auto;
+}
+
+#main-menu-con ul ul a {
+	text-align:right;
+}
+
+#main-menu-con .menu-item-has-children a, #main-menu-con .page_item_has_children a {
+	padding-left: 17px;
+	padding-right: 0;
+}
+
+#main-menu-con li.menu-item-has-children a:after, #main-menu-con li.page_item_has_children a:after {
+	left:0;
+	right: auto;
+}
+
+/*..... Right and Footer WidGets
+-------------------------------------------------- */
+
+#left-sidebar .widget li {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+#footer-sidebar .first-footer-widget {
+	float:right;
+}
+
+#footer-sidebar .footer-widgets {
+	margin-right: 2%;
+	float:right;
+	margin-left: auto;
+}
+
+#footer-sidebar .widget ul, #footer-sidebar .widget ul {
+	margin: 0 15px 10px 0;
+}
+
+/*..... Design Elements
+-------------------------------------------------- */
+
+ul, ol {
+	margin:0 25px 10px 0;
+}
+
+address {
+	text-align:left;
+}
+
+#wp-calendar a {
+	right: 0;
+	left: auto;
+}
+
+/*..... Featured Boxes and Contents
+-------------------------------------------------- */
+#fbox-item {
+	background: transparent url("images/back.jpg") repeat scroll top right;
+}
+
+.featured-boxs img.box-icon, .attachment-beautyandspa-fcontent {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+.featured-box h3.featured-box2.fboxtitle {
+	text-align: right;
+}
+
+.fiover {
+	right: 50%;
+	left: auto;
+}
+
+/*..... Staff Box
+-------------------------------------------------- */
+
+/*..... WordPress Components
+-------------------------------------------------- */
+
+blockquote:before, q:before {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+blockquote:after, q:after {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+#container .attachment-thumbnail {
+	margin:0px 0 10px 15px;
+	float:right;
+}
+
+h1.page-title,
+h1.arc-post-title {
+	text-align:right;
+}
+
+h2.post-title,
+h2.comments,
+h3#reply-title,
+h2.post-title-color {
+	text-align:right;
+}
+
+.read-more {
+	margin: 11px 0 0 -7px;
+	float: left;
+}
+
+.read-more:after {
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+.page-link::before {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+.floatright {
+	float:right;
+	text-align:right;
+}
+
+.floatleft {
+	float:left;
+	text-align:left;
+}
+
+.page-nav .alignleft {
+	text-align:left;
+}
+
+.page-nav .alignright {
+	text-align:right;
+}
+
+.post-meta span:before {
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+.post-meta span {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+.postnav.floatright {
+	padding-right: 25px;
+	padding-left: 0;
+}
+
+.postnav.floatright span::before {
+	right: 3px;
+	left: auto;
+}
+
+.postnav.floatleft {
+	padding-left: 25px;
+	padding-right: 0;
+}
+
+.postnav.floatleft span::before {
+	left: 3px;
+	right: auto;
+}
+
+.searchinfo h1::before {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+.autbio {
+	border-right: 5px solid #fb4baa;
+	border-left: none;
+}
+
+.author-image {
+	float: right;
+}
+
+.author-description {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+.go-top {
+	left: 10px;
+	right: auto;
+}
+
+/*..... Comments
+-------------------------------------------------- */
+
+.commentsbox::before {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+#comments img.avatar {
+	right: 0;
+	left: auto;
+}
+
+.comment-body:after {
+	border-left: 15px solid #eeeeee;
+	margin: 0 -25px 0 0;
+	border-right: none;
+}
+
+#comments .commentlist li.comment {
+	padding:20px 115px 0 0;
+}
+
+#comments .commentlist .children li {
+	margin:0 -25px 0 0;
+}
+
+/*..... Testimonials
+-------------------------------------------------- */
+
+.arrow-down {
+	float: right;
+	margin: -10px 20px 0 0;
+}
+
+#customers-comment img {
+	float: right;
+}
+
+/*..... Social Links
+-------------------------------------------------- */
+
+.socialnormal .social {
+	margin: 0 0 0 10px;
+}
+
+.mobile-menu::before {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.search-login {
+	left: 5%;
+	margin-left: 35px;
+	right: auto;
+	margin-right: auto;
+}
+
+.searchlibef {
+	right: -35px;
+	left: auto;
+}
+
+.searchliaft {
+	left: -35px;
+	right: auto;
+}
+
+.search-login .search-form::before {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+.search-login input.search-field {
+	padding-right: 25px;
+	padding-left: 0;
+}
+
+.phonenumber, .extranumber {
+	margin: 0 0 0 10px;
+}
+
+.phonenumber:before, .extranumber:before {
+	margin:0 0 0 3px;
+}
+
+/*..... Front Page Blog
+-------------------------------------------------- */
+
+.bqpcontainer .tesheading .read-more {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+#wpsblogpost.bqpcontainer .featured-box {
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+}
+
+/*..... Text meant only for screen readers
+-------------------------------------------------- */
+
+.screen-reader-text:focus {
+	right: 5px;
+	left: auto;
+}

@@ -1,0 +1,363 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+.
+. @ Project : Everest News Lite
+.
+. @ Author : Everestthemes
+.
+. @ Author URL : https://everestthemes.com/
+.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+h1 {
+    font-size: 42px
+}
+
+h2 {
+    font-size: 36px
+}
+
+h3 {
+    font-size: 32px
+}
+
+h4 {
+    font-size: 28px
+}
+
+h5 {
+    font-size: 24px
+}
+
+h6 {
+    font-size: 20px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff
+}
+
+.en-front-widget-cat-3 .content-holder {
+    margin-top: 20px
+}
+
+.en-front-widget-cat-3 .post-title {
+    padding: 20px 0 10px 0
+}
+
+.en-front-widget-cat-3 .thumb .entry-meta {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.en-front-widget-cat-3 .excerpt {
+    padding-top: 15px
+}
+
+.en-front-widget-cat-3 .right-col .excerpt {
+    display: none
+}
+
+.en-front-widget-cat-3 .en-col article:last-child {
+    margin-bottom: 0
+}
+
+.en-front-widget-cat-3 .en-col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%
+}
+
+.en-front-widget-cat-3 .en-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0
+}
+
+.en-front-widget-cat-3 .left-col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 35%;
+    flex: 0 0 35%;
+    max-width: 35%
+}
+
+.en-front-widget-cat-3 .right-col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 65%;
+    flex: 0 0 65%;
+    max-width: 65%;
+    padding-left: 30px
+}
+
+.en-front-widget-cat-3 .right-col .content-holder {
+    margin: 0
+}
+
+.en-front-widget-cat-3 .right-col .post-title {
+    padding-top: 0
+}
+
+@media (max-width: 1200px) {
+    .en-front-widget-cat-3 .thumb .entry-meta {
+        display: none
+    }
+}
+
+@media (max-width: 1024px) {
+    .en-front-widget-cat-3 .left-col,
+    .en-front-widget-cat-3 .right-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+    .en-front-widget-cat-3 .right-col {
+        padding-left: 0;
+        padding-top: 30px
+    }
+}
+
+@media (max-width: 768px) {
+    .en-front-widget-cat-3 .en-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+    .en-front-widget-cat-3 .en-col:first-child {
+        margin-bottom: 30px
+    }
+    .en-front-widget-cat-3 .en-col:nth-child(2) {
+        margin-bottom: 30px
+    }
+}
+
+.main-navigation li a:hover {
+    background: #4bbae6
+}
+
+.main-navigation>ul>li>a:hover {
+    color: #4bbae6;
+}
+
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce .wc-forward:hover,
+.woocommerce a.added_to_cart:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+    background: #4bbae6;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:hover {
+    background: #4bbae6;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: #4bbae6
+}
+
+.btn-general:hover {
+    background: #4bbae6;
+}
+
+.clr-white a:hover,
+.clr-primary a:hover,
+.clr-secondary a:hover,
+.clr-special a:hover {
+    color: #4bbae6
+}
+
+ul.post-categories li a:hover {
+    border-color: #4bbae6;
+    background: #4bbae6
+}
+
+ul.post-categories li a:hover::before {
+    border-top: 8px solid #4bbae6
+}
+
+#toTop:hover {
+    background: #4bbae6
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background: #4bbae6
+}
+
+#header-search input[type="submit"]:hover,
+.search-box input[type="submit"]:hover,
+.widget_search input[type="submit"]:hover {
+    background: #4bbae6
+}
+
+.site-title a:hover {
+    color: #4bbae6
+}
+
+.header-lay-2 .category-navigation ul li a:hover,
+.header-lay-3 .category-navigation ul li a:hover {
+    color: #4bbae6
+}
+
+.header-lay-2 .social-col .social-icons-list li a:hover,
+.header-lay-3 .social-col .social-icons-list li a:hover {
+    color: #4bbae6
+}
+
+.header-lay-3 .main-navigation>ul>li>a:hover {
+    color: #4bbae6
+}
+
+footer .widget a:hover,
+footer a:hover {
+    color: #4bbae6
+}
+
+.en-socialwidget-2 .social-icons-list.colored li.facebook a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.facebook a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.twitter a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.twitter a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.instagram a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.instagram a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.linkedin a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.linkedin a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.vk a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.vk a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.pinterest a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.pinterest a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.reddit a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.reddit a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.googleplus a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.googleplus a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.vimeo a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.vimeo a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.youtube a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.youtube a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.quora a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.quora a:hover,
+.en-socialwidget-2 .social-icons-list.colored li.medium a:hover,
+.en-socialwidget-2 .social-icons-list-post-page li.medium a:hover {
+    background: #4bbae6
+}
+
+.en-newsletter-widget button:hover {
+    background: #4bbae6
+}
+
+.en-custom-category ul li a:hover {
+    background: #4bbae6
+}
+
+.widget_tag_cloud .tagcloud a:hover {
+    background: #4bbae6
+}
+
+.en-pagination .pagi-layout-1 .nav-links a:hover {
+    background: #4bbae6;
+}
+
+.editor-entry a:hover {
+    color: #4bbae6
+}
+
+.post-like-dislike-btns-holder button:hover {
+    background: #4bbae6
+}
+
+.post-tags a:hover {
+    background: #4bbae6
+}
+
+.en-author-box .author-social ul li a:hover {
+    color: #4bbae6
+}
+
+.comments-area .comment-body .fn a:hover,
+.comments-area .comment-body .fn a:focus {
+    color: #4bbae6
+}
+
+.comments-area .comment-body .reply a:hover,
+.comments-area .comment-body .reply a:focus {
+    color: #4bbae6
+}
+
+.wpcf7 input[type="submit"]:hover,
+.wpcf7 input[type="button"]:hover {
+    background: #4bbae6;
+}
+
+.jetpack_subscription_widget input[type="submit"]:hover {
+    background: #4bbae6
+}
+
+.widget_archive a:hover,
+.widget_categories a:hover,
+.widget_recent_entries a:hover,
+.widget_meta a:hover,
+.widget_product_categories a:hover,
+.widget_rss li a:hover,
+.widget_pages li a:hover,
+.widget_nav_menu li a:hover,
+.woocommerce-widget-layered-nav ul li a:hover {
+    color: #4bbae6
+}
+
+.widget_rss .widget-title h3 a:hover {
+    color: #4bbae6
+}
+
+.widget_rss ul li a:hover {
+    color: #4bbae6
+}
+
+.widget_tag_cloud .tagcloud a:hover {
+    background: #4bbae6
+}

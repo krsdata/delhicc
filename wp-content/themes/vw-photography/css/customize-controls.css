@@ -1,0 +1,91 @@
+#customize-controls .control-section-vw-photography .accordion-section-title:hover,
+#customize-controls .control-section-vw-photography .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-vw-photography .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-vw-photography .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+/* ---------Customizer--------- */
+.control-section-vw-photography h3.accordion-section-title {
+  	background: #30314f !important;
+  	color: #fff !important;
+}
+a.button.button-secondary.alignright {
+  	color: #30314f;
+    box-shadow: 2px 2px 0px 0px #e381b0;
+    border: solid 1px #e381b0;
+    border-bottom: none;
+    background: #e381b0;
+    font-weight: bold;
+}
+a.button.button-secondary.alignright:hover {
+	background: #fff;
+}
+.customize-control-title {
+  display: -webkit-inline-box;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  background: #0085ba;
+  padding: 0px 15px;
+  color: #fff;
+}
+
+/*------- Typogarphy ----------*/
+
+.customize-control-typography li.typography-font-weight,
+.customize-control-typography li.typography-font-style,
+.customize-control-typography li.typography-font-size,
+.customize-control-typography li.typography-line-height {
+  float: left;
+  width: 50%;
+}
+.customize-control-typography li.typography-font-weight select,
+.customize-control-typography li.typography-font-style select {
+  width: 90%;
+}
+.customize-control-typography li.typography-font-weight,
+.customize-control-typography li.typography-font-size {
+  clear: both;
+}
+.customize-control-typography li.typography-font-size input,
+.customize-control-typography li.typography-line-height input {
+  width: 90%;
+}
+input.typography-font-color {
+  padding: 0;
+  margin: 0;
+}
+li#customize-control-vw_photography_h1_typography,
+li#customize-control-vw_photography_h2_typography,
+li#customize-control-vw_photography_h3_typography,
+li#customize-control-vw_photography_h4_typography,
+li#customize-control-vw_photography_h5_typography,
+li#customize-control-vw_photography_p_typography {
+  border-bottom: solid 2px #1e1e1e1e;
+  padding-bottom: 12px;
+}
+
+/* ---------Image Toggle --------- */
+img.vw-photography-radio-img-img {
+   width: 80px;
+   margin-right: 3px;
+}
+img.vw-photography-radio-img-selected {
+   border: solid 2px #0085ba;
+}
+/* ---------Excerpt & Logo --------- */
+input#_customize-input-vw_photography_excerpt_number,
+input#_customize-input-logo_size, 
+input#_customize-input-vw_photography_slider_excerpt_number,
+input#_customize-input-vw_photography_category_excerpt_number,
+input#_customize-input-vw_photography_slider_opacity_color {
+    width: 100%;
+}

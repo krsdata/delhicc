@@ -1,0 +1,52 @@
+/*
+Theme Name: NewsQuare
+Theme URI: https://afthemes.com/products/newsquare/
+Author: AF themes
+Author URI: https://afthemes.com
+Description:  NewsQuare is a child theme of CoverNews. The theme is coming with different main banner section layout, main navigation background as well as introducing new badge color. More importantly, the child theme also added advertisement banner widget section, which will facilitates user to add widgets having ad scripts. Furthermore, the theme also altered some of the frontpage layout's default value. With the help of available customizer options along with widgets, you can implement layouts as a clean and minimal blogging site, sport blog, fashion blog, photography blog, wedding blog & magazine and even more. The theme is SEO friendly with optimized code and outstanding support.
+See Demo: https://demo.afthemes.com/covernews/newsquare/
+Support: https://afthemes.com/supports/
+Template: covernews
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newsquare
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+NewsQuare WordPress Theme, Copyright 2018 AF themes
+NewsQuare is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .main-navigation a,
+body .font-family-1,
+body .site-description,
+body .trending-posts-line,
+body .widget-title,
+body .em-widget-subtitle,
+body .grid-item-metadata .item-metadata,
+body .af-navcontrols .slide-count,
+body .figure-categories .cat-links,
+body .nav-links a {
+font-family: 'Roboto';
+}
+
+body .main-navigation{
+    background: #061417;
+}
+
+body span.menu-description{
+    background: #bb1919;
+}
+
+body .af-main-banner .slider-figcaption .slide-title {
+        font-size: 42px;
+}

@@ -1,0 +1,708 @@
+/*
+Theme Name: Mag News
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/*
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/
+blockquote:before{
+    right: 0;
+    left: 0;
+}
+
+blockquote cite:before{
+    margin-left: 3px;
+}
+
+ul, ol{
+    margin: 0 3em 1.5em 0 ;
+}
+
+li > ul, li > ol{
+    margin-right: 1.5em;
+}
+
+.main-navigation{
+    margin-right: -20px;
+}
+
+.main-navigation ul{
+    padding-right: 0;
+}
+
+.main-navigation ul.sub-menu{
+    right: 0;
+}
+
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul{
+    right: 100%;
+}
+
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul{
+    right: auto;
+}
+
+.main-navigation li{
+    float: right;
+}
+
+.main-navigation li.menu-item-has-children:before{
+    left: 5px;
+}
+
+.main-navigation  ul > li > a::before{
+    margin-left: 5px;
+}
+
+.main-navigation  ul > li > a::after{
+    margin-right: 5px;
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous{
+    float: right;
+}
+
+.comment-navigation .nav-previous a, .posts-navigation .nav-previous a, .post-navigation .nav-previous a{
+    padding-right: 30px;
+}
+
+.comment-navigation .nav-next a, .posts-navigation .nav-next a, .post-navigation .nav-next a{
+    padding-left: 30px;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next{
+    float: left;
+    text-align: left;
+}
+
+.pagination, #wp-page-numbers, .wp-pagenavi, #main ul.default-wp-page{
+    text-align: right;
+}
+
+.nav-previous{
+    float: right;
+}
+
+.nav-next{
+    float: left;
+}
+
+.nav-links{
+    padding-left: 15px;
+}
+
+.post-navigation .nav-previous a{
+    padding-right: 35px;
+    padding-left: 10px;
+}
+
+.post-navigation .nav-next a{
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+.pagination a.prev::before, .nav-previous a::before{
+    right: 0;
+}
+
+.pagination a.next::after, .nav-next a::after{
+    left: 0;
+}
+
+.nav-previous a::before{
+    right: 0px;
+}
+
+.nav-next a::after{
+    left: 0px;
+}
+
+.pagination ul{
+    padding-right: 0;
+    padding-left: 0;
+    text-align: right;
+}
+
+.screen-reader-text:focus{
+    right: 5px;
+}
+
+.alignleft{
+    float: right;
+    margin-left: 1.5em;
+}
+
+.alignright{
+    float: left;
+    margin-right: 1.5em;
+}
+
+.aligncenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wp-caption img[class*="wp-image-"]{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.custom-col-1,  .custom-col-2,  .custom-col-3,  .custom-col-4,  .custom-col-5,  .custom-col-6,  .custom-col-7,  .custom-col-8,  .custom-col-9,  .custom-col-10,  .custom-col-11,  .custom-col-12{
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+}
+
+.back-to-top{
+    left: 30px;
+}
+
+.notice-info-title{
+    padding-right: 25px;
+    margin-left: 7px;
+    right: 0;
+}
+
+.notice-info-title:before{
+    right: 0;
+}
+
+.notification-bar ul{
+    padding-right: 0;
+}
+
+.basic-info-wrap{
+    text-align: left;
+}
+
+.basic-info{
+    margin-right: auto;
+}
+
+.basic-info > div{
+    margin-left: 15px;
+}
+
+.site-header .navbar .search-section{
+    text-align: left;
+}
+
+.header-absolute .site-header .navbar .main-navigation{
+    padding-left: 15px;
+}
+
+.header-absolute .site-header .navbar .search-section{
+    padding-right: 15px;
+    text-align: left;
+}
+
+.site-header .search-section{
+    margin-right: auto;
+}
+
+.site-header .search-section form{
+    padding-right: 25px;
+}
+
+.site-header .search-section form input[type=search]::-webkit-input-placeholder{
+    text-align: right;
+}
+
+.site-header .search-section form input[type=search]::-moz-placeholder{
+    text-align: right;
+}
+
+.site-header .search-section form input[type=search]:-ms-input-placeholder{
+    text-align: right;
+}
+
+.site-header .search-section form input[type=search]:-moz-placeholder{
+    text-align: right;
+}
+
+.site-header .search-section form input[type=submit]{
+    right: 0;
+}
+
+.site-header.header-style-3 .search-section form input[type=submit]{
+    background-position: center left;
+}
+
+.header-style-2.site-header .social-links{
+    text-align: left;
+}
+
+body .site-header .entry-meta .social-links{
+    text-align: right;
+}
+
+.header-banner{
+    right: 0;
+    left: 0;
+}
+
+.site-branding{
+    text-align: right;
+}
+
+.header-banner img + .site-branding{
+    right: 50%;
+}
+
+.page-title-wrap:before{
+    right: 0;
+    left: 0;
+}
+
+.header-absolute .header-style-3 .hgroup-wrap, .header-absolute .hgroup-wrap, .header-absolute .header-style-2 .hgroup-wrap{
+    right: 0;
+    left: 0;
+}
+
+.post-content{
+    margin-right: auto;
+}
+
+.single .featured-post-image + .post-content{
+    margin-right: 0;
+}
+
+.single #primary .featured-post-image + .post-content{
+    margin-right: 0;
+}
+
+figure.featured-post-image:before{
+    right: 0;
+    left: 0;
+}
+
+article figure + .post-content .post-cat-list{
+    right: 30px;
+}
+
+.post-content .cat-links{
+    margin-left: 5px;
+}
+
+.entry-meta > div{
+    margin-left: 30px;
+    padding-right: 16px;
+}
+
+.entry-meta > div:last-child{
+    margin-left: 0;
+}
+
+.entry-meta > div:before{
+    right: 0;
+}
+
+article .social-links ul, .page-title-wrap .social-links ul{
+    right: 100%;
+}
+
+article .social-links:hover ul, .page-title-wrap .social-links:hover ul{
+    padding-right: 10px;
+}
+
+.single-slider .owl-nav{
+    left: 0;
+}
+
+.owl-theme .owl-nav .owl-prev{
+    padding: 5px 12px 5px 9px ;
+}
+
+.owl-theme .owl-nav .owl-next{
+    margin-right: 19px;
+    padding: 5px 9px 5px 12px ;
+}
+
+.owl-theme .owl-nav .owl-prev:before{
+    margin-left: 3px;
+}
+
+.owl-theme .owl-nav .owl-next:after{
+    margin-right: 3px;
+}
+
+.featured-post-slider-2 .owl-item .post-content{
+    left: 0;
+}
+
+.heading .entry-title, .header-tab-button, .widget-title{
+    padding-right: 20px;
+    border-right: 2px solid #d2b177;
+}
+
+.contact-information .widget-title{
+    padding-right: 0;
+    border-right: 0;
+}
+
+.header-tab-button{
+    padding-right: 0;
+}
+
+.post-layout-2 article figure + .post-content .post-cat-list, .alternate article figure + .post-content .post-cat-list{
+    right: 15px;
+}
+
+.alternate article:nth-of-type(2n) figure + .post-content .post-cat-list{
+    right: 0;
+}
+
+.trending .owl-nav{
+    right: 20%;
+}
+
+.related-post-section .trending .owl-nav{
+    right: 30%;
+}
+
+.trending.owl-theme .owl-nav [class*='owl-']{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.life-style .post-content{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.life-style article figure + .post-content .post-cat-list{
+    right: 0;
+}
+
+.news-option.owl-carousel .owl-item article{
+    padding-left: 95px;
+}
+
+.news-option.owl-carousel .owl-item.active.current article{
+    padding-left: 15px;
+}
+
+.news-section .custom-col-8{
+    margin-right: -9%;
+}
+
+.alternate article figure + .post-content, .post-layout-2 figure + .post-content, body .archieve-content.alternate figure + .post-content{
+    margin-right: -30px;
+    padding: 15px 15px 15px 0 ;
+}
+
+.alternate article:nth-of-type(2n) figure + .post-content, body .archieve-content.alternate article:nth-of-type(2n) figure + .post-content{
+    margin-right: 0;
+    margin-left: -30px;
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.filters-button-group{
+    margin-right: auto;
+}
+
+.filters-button-group, .widget .filters-button-group{
+    margin-right: auto;
+}
+
+.filters-button-group li{
+    margin-right: 40px;
+}
+
+.filters-button-group li:nth-of-type(1){
+    margin-right: 0;
+}
+
+.widget ul{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.widget_archive ul > li, .widget_categories ul > li, .widget_pages ul > li, .widget_meta ul > li, .widget_recent_comments ul > li, .widget_recent_entries ul > li, .widget_nav_menu ul > li{
+    padding-right: 15px;
+}
+
+.widget_archive ul li:before, .widget_categories ul > li:before, .widget_pages ul > li:before, .widget_meta ul > li:before, .widget_recent_comments ul > li:before, .widget_recent_entries ul > li:before, .widget_nav_menu ul > li:before{
+    right: 0;
+}
+
+.widget_search form input[type=search]{
+    padding-left: 105px;
+}
+
+.widget_search form input[type=submit]{
+    left: 0;
+}
+
+.widget_categories ul li, .widget_archive ul li{
+    text-align: left;
+}
+
+.widget_categories ul li a, .widget_archive ul li a{
+    float: right;
+}
+
+.categories-wrapper .cat-item .cat-item-wrap:before{
+    right: 0;
+    left: 0;
+}
+
+.categories-wrapper .cat-item-inner{
+    margin-left: 37px;
+}
+
+.world-news article figure + .post-content{
+    left: 0;
+}
+
+.world-news-option .post-content{
+    padding: 0 0 27px 0 ;
+}
+
+.world-news-option .entry-header{
+    padding: 10px 45px 0 0 ;
+}
+
+.world-news-option .entry-header:before{
+    right: 0;
+}
+
+.world-news-option .entry-header .entry-title{
+    padding: 15px 18px 0 0 ;
+}
+
+.site-footer .widget-title{
+    padding-right: 0;
+}
+
+.site-footer .footer-menu{
+    text-align: left;
+}
+
+.site-footer .footer-menu ul{
+    padding-right: 0;
+}
+
+.site-footer .footer-menu ul li{
+    margin-right: 16px;
+    padding-right: 20px;
+}
+
+.site-footer .footer-menu ul li:before{
+    right: 0;
+}
+
+.site-footer .footer-menu ul li:first-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.site-footer.footer-style-2 .footer-top aside{
+    margin-left: -4px;
+    padding-left: 15px;
+}
+
+.site-footer.footer-style-2 .footer-top aside:nth-of-type(2n){
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.footer-style-2 .widget_social_share{
+    text-align: left;
+}
+
+.widget_newsletterwidget form .tnp-field-button{
+    left: 0;
+}
+
+.site-footer .widget input[type=email]{
+    padding-right: 23px;
+    padding-left: 140px;
+}
+
+.site-footer .footer-widget-holder .widget input[type=email]{
+    padding-left: 60px;
+}
+
+.site-footer .widget input[type=submit]{
+    border-right: 1px solid #f4eddf;
+}
+
+.contact-information .contact-form{
+    text-align: left;
+}
+
+.widget_social_share .social-links ul li a:hover:before{
+    margin-left: 7px;
+}
+
+.insta-gallery .item:before{
+    right: 0;
+    left: 0;
+}
+
+.insta-gallery .item a:before{
+    right: 50%;
+}
+
+.footer-slides .owl-prev{
+    right: 0;
+}
+
+.footer-slides .owl-next{
+    left: 0;
+}
+
+.footer-style-2 .twitter-slide-item{
+    padding: 51px 316px 51px 80px ;
+}
+
+.footer-style-2 .twitter-slide-item .icon{
+    right: 0;
+}
+
+.twitter-slide-item .icon:before{
+    right: 50%;
+}
+
+body .archieve-content .post-content{
+    margin-right: 0;
+    margin-left: auto;
+    padding-right: 0;
+}
+
+.contact-information{
+    margin-right: auto;
+}
+
+.single .entry-content ul li h2:before{
+    margin-left: 3px;
+}
+
+.widget-post-author figure{
+    float: right;
+}
+
+.widget-post-author .author-details{
+    float: right;
+    padding-right: 17px;
+}
+
+.author-info-wrap .author-info{
+    margin-right: auto;
+}
+
+.comments-area .comment-list{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.comments-area .comment-author img, .comments-area .comment-author b, .comments-area .comment-author span{
+    margin-left: 10px;
+}
+
+.comment-respond .comment-form-comment{
+    float: right;
+    padding-left: 15px;
+}
+
+.comment-form-url{
+    clear: right;
+}
+
+.comment-respond label{
+    text-align: right;
+}
+
+.comment-respond .comment-form-author, .comment-respond .comment-form-email{
+    padding-right: 15px;
+    float: right;
+}
+
+.comment-respond .comment-form-cookies-consent{
+    float: right;
+}
+
+.comment-respond .form-submit{
+    float: right;
+    text-align: left;
+}
+
+.preloader{
+    right: 0;
+}
+
+#primary{
+    float: right;
+    margin-left: 30px;
+}
+
+#secondary{
+    float: right;
+}
+
+.global-layout-left-sidebar #primary{
+    float: left;
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+#secondary .filters-button-group,  #secondary .widget .filters-button-group, .site-footer .filters-button-group,  .site-footer .widget .filters-button-group{
+    text-align: right;
+    margin-right: 0;
+}
+
+#secondary .trending .owl-nav, .site-footer .trending .owl-nav{
+    right: auto;
+    left: 0;
+}
+
+#secondary .alternate article .post-content, #secondary .post-layout-2 .post-content, .site-footer .alternate article .post-content, .site-footer .post-layout-2 .post-content{
+    margin-right: -30px;
+}
+
+#secondary .alternate article .post-content{
+    margin-right: 0;
+}
+
+.footer-style-2 .footer-top .heading .entry-title,  .footer-style-2 .footer-top .header-tab-button,  .footer-style-2 .footer-top .widget-title{
+    border-right-color: #fff;
+}
+
+.error-404.not-found:before{
+    left: 0;
+    right: 0;
+}
+
+.search-no-results .search-form input[type=submit]{
+    left: 0;
+}
+
+.wpcf7-form form.wpcf7-form input[type=submit]{
+    left: 0;
+}
+
+.main-navigation .priority-nav__wrapper ul{
+    right: 0;
+}

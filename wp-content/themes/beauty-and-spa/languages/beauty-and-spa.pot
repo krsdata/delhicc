@@ -1,0 +1,467 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Innovation Lite\n"
+"POT-Creation-Date: 2017-11-02 12:19+0600\n"
+"PO-Revision-Date: 2015-10-29 02:02+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:13 function/imp.php:16
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:13 function/imp.php:16
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:13
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:27
+msgid "Comments are Closed"
+msgstr ""
+
+#: fpcontents/fp-blog.php:14
+msgid "Latest <em>Blog</em> Posts"
+msgstr ""
+
+#: fpcontents/fp-heading.php:8 fpcontents/fp-heading.php:11
+msgid "Welcome to the World of Beauty !"
+msgstr ""
+
+#: fpcontents/fp-staffs.php:18 inc/customize.php:251
+msgid "WE ARE INSIDE"
+msgstr ""
+
+#: function/imp.php:16
+msgid "Edit"
+msgstr ""
+
+#: function/imp.php:16
+msgid "Comments"
+msgstr ""
+
+#: function/imp.php:28
+msgid "Newer"
+msgstr ""
+
+#: function/imp.php:29
+msgid "Older"
+msgstr ""
+
+#: function/imp.php:35
+msgid "Y"
+msgstr ""
+
+#: function/imp.php:35
+msgid "Theme by:"
+msgstr ""
+
+#: function/imp.php:35
+msgid "Powered by:"
+msgstr ""
+
+#: function/imp.php:43
+msgid "SORRY, NOT FOUND ANYTHING"
+msgstr ""
+
+#: function/imp.php:44
+msgid "You Can Try Another Search..."
+msgstr ""
+
+#: function/imp.php:46
+msgid "Or Return to the Home Page"
+msgstr ""
+
+#: function/imp.php:63
+msgid "Author : "
+msgstr ""
+
+#: functions.php:11
+msgid "Beauty and Spa Options"
+msgstr ""
+
+#: functions.php:21 header.php:30
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:99 functions.php:110
+msgid "Read More"
+msgstr ""
+
+#: functions.php:126
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:135
+msgid "Footer Area One"
+msgstr ""
+
+#: functions.php:144
+msgid "Footer Area Two"
+msgstr ""
+
+#: functions.php:153
+msgid "Footer Area Three"
+msgstr ""
+
+#: functions.php:163
+msgid "Footer Area Four"
+msgstr ""
+
+#: functions.php:172
+msgid "Footer Area Five"
+msgstr ""
+
+#: functions.php:184
+msgid "(Untitled)"
+msgstr ""
+
+#: inc/customize.php:9
+msgid "BEAUTY AND SPA OPTIONS"
+msgstr ""
+
+#: inc/customize.php:10
+msgid "We appreciate an"
+msgstr ""
+
+#: inc/customize.php:10
+msgid "Honest Review"
+msgstr ""
+
+#: inc/customize.php:10
+msgid "of this Theme if you Love our Work"
+msgstr ""
+
+#: inc/customize.php:12
+msgid "You can learn more on This Theme from the "
+msgstr ""
+
+#: inc/customize.php:13
+msgid "Theme Page"
+msgstr ""
+
+#: inc/customize.php:27
+msgid "Set Demo Style Front Page ignoring the WordPress Reading Setting"
+msgstr ""
+
+#: inc/customize.php:44
+msgid "Select the Post Content Type"
+msgstr ""
+
+#: inc/customize.php:49
+msgid ""
+"Full Content in Blog Page. Also Support Read More Button if inserted during "
+"Editing"
+msgstr ""
+
+#: inc/customize.php:50
+msgid "Some Words and Read More Button in the Blog Page"
+msgstr ""
+
+#: inc/customize.php:64
+msgid "Contact Number"
+msgstr ""
+
+#: inc/customize.php:67
+msgid "Input your Contact Number"
+msgstr ""
+
+#: inc/customize.php:79
+msgid "Default Featured Image for Posts"
+msgstr ""
+
+#: inc/customize.php:82
+msgid ""
+"Upload an image for the Default Featured Image for Posts. 1100px X 600px "
+"image is recommended"
+msgstr ""
+
+#: inc/customize.php:94
+msgid "404 Error Image"
+msgstr ""
+
+#: inc/customize.php:97
+msgid "Upload an image for 404 Error Page. 500px X 300px image is recommended"
+msgstr ""
+
+#: inc/customize.php:106
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Heading"
+msgstr ""
+
+#: inc/customize.php:113
+msgid "Welcome to the World of Creativity!"
+msgstr ""
+
+#: inc/customize.php:121
+msgid "Front Page Heading"
+msgstr ""
+
+#: inc/customize.php:133
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Slide"
+msgstr ""
+
+#: inc/customize.php:146
+msgid "Show the Slider"
+msgstr ""
+
+#: inc/customize.php:163
+msgid "Banner Image/ Slide Image"
+msgstr ""
+
+#: inc/customize.php:166
+msgid ""
+"Upload an image for the Front Page Banner. 930px X 350px image is recommended"
+msgstr ""
+
+#: inc/customize.php:175
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Featured Contents"
+msgstr ""
+
+#: inc/customize.php:176
+msgid ""
+"You can set your Featured Contents selecting Specific Pages. This Function/"
+"Feature/Option is different in Extended Version"
+msgstr ""
+
+#: inc/customize.php:189
+msgid "Featured Content Source"
+msgstr ""
+
+#: inc/customize.php:202
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Featured Boxes"
+msgstr ""
+
+#: inc/customize.php:203
+msgid ""
+"You can set your Featured Boxes selecting Specific Pages. This Function/"
+"Feature/Option is different in Extended Version"
+msgstr ""
+
+#: inc/customize.php:216
+msgid "Featured Box Source"
+msgstr ""
+
+#: inc/customize.php:229
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Staff Box"
+msgstr ""
+
+#: inc/customize.php:230
+msgid ""
+"You can set the Front Page Staffs. Your Users will be displayed here. This "
+"Function/Feature/Option is different in Extended Version"
+msgstr ""
+
+#: inc/customize.php:243
+msgid "Show/Hide the Staff Box"
+msgstr ""
+
+#: inc/customize.php:259
+msgid "Staff Box Heading"
+msgstr ""
+
+#: inc/customize.php:270
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Testimonials"
+msgstr ""
+
+#: inc/customize.php:271
+msgid ""
+"You can set the Front Page Testimonials. The Comments will be displayed "
+"here. This Function/Feature/Option is different in Extended Version"
+msgstr ""
+
+#: inc/customize.php:284
+msgid "Show/Hide the Testimonial Box"
+msgstr ""
+
+#: inc/customize.php:292
+msgid "Sweet Words from our <em>Proud Clients</em> Worldwide"
+msgstr ""
+
+#: inc/customize.php:300
+msgid "Testimonial Box Heading"
+msgstr ""
+
+#: inc/customize.php:311
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Social Links"
+msgstr ""
+
+#: inc/customize.php:325
+msgid "Social Link"
+msgstr ""
+
+#: inc/theme-about.php:11
+msgid "About"
+msgstr ""
+
+#: inc/theme-about.php:15
+msgid "IMPORTANT NOTE !"
+msgstr ""
+
+#: inc/theme-about.php:15
+msgid ""
+"As per the Requirements of New Theme Review Guidelines, Theme Options will "
+"not be available at this location anymore for the Free Version of Beauty and "
+"Spa Theme. You can get all those options under <b>Appearance > Customize</b>"
+msgstr ""
+
+#: inc/theme-about.php:17
+msgid ""
+"If you love the Excellent Previous Style Options You may consider using our"
+msgstr ""
+
+#: inc/theme-about.php:17
+msgid "Extend Version Themes"
+msgstr ""
+
+#: inc/theme-about.php:17
+msgid ""
+"All Options will be under <b>Appearance > Beauty and Spa Options</b> with "
+"large screen and user friendtly Interface in Extended Version"
+msgstr ""
+
+#: inc/theme-about.php:21
+msgid "Beauty and Spa Theme Tutorial"
+msgstr ""
+
+#: inc/theme-about.php:22
+msgid "Want Your Site Like the Demo ?"
+msgstr ""
+
+#: inc/theme-about.php:25
+msgid ""
+"A Theme is an effort of many sleepless nights of the Developers.  If you "
+"like this FREEE Theme You can consider for a 5 star rating and honest "
+"review. Your review will inspire us. You can"
+msgstr ""
+
+#: inc/theme-about.php:25
+msgid "Review Here"
+msgstr ""
+
+#: inc/theme-about.php:25
+msgid ""
+"Need More Features and Options including 3D Slider, Unlimited Slide Items, "
+"Links from Featured Boxes, Portfolio and 100+ Advanced Features and "
+"Controls? Try"
+msgstr ""
+
+#: inc/theme-about.php:25
+msgid "You can Visit the Full Featured"
+msgstr ""
+
+#: inc/theme-about.php:25
+msgid "DEMO HERE"
+msgstr ""
+
+#. Description of the plugin/theme
+#: inc/theme-about.php:28
+msgid ""
+"Beauty and Spa is a CSS3 Powered and WordPress Latest Version Ready Theme "
+"for Beauty Salon and Massage Parlors. It can also be used in any Small "
+"Business to Corporate Business. Beauty and Spa Theme is E-Commerce Ready by "
+"WooCommerce"
+msgstr ""
+
+#: inc/theme-about.php:32
+msgid "Beauty and Spa Theme Page"
+msgstr ""
+
+#: inc/theme-about.php:33
+msgid "Beauty and Spa Demo"
+msgstr ""
+
+#: inc/theme-about.php:34
+msgid "D5 Theme Gallery"
+msgstr ""
+
+#: inc/theme-about.php:38
+msgid "Learn More about our Flexible Membership Options"
+msgstr ""
+
+#: inc/theme-about.php:39
+msgid "View Pricing and Features"
+msgstr ""
+
+#: inc/theme-about.php:42 inc/theme-about.php:53
+msgid "D5 Creation Themes"
+msgstr ""
+
+#: inc/theme-about.php:46
+msgid "World Class, Responsive and Premium WordPress Themes"
+msgstr ""
+
+#: inc/theme-about.php:47
+msgid ""
+"Ready to take your WordPress site to the next level? Give your CMS a "
+"beautiful design to draw in more visitors. Peoples love us because of the "
+"Simplicity of our Themes. We deliver User Friendly Responsive and Premium "
+"WordPress Themes with Unique and Modern Design. You can Trust our Themes"
+msgstr ""
+
+#: inc/theme-about.php:49
+msgid "Visit Our Theme Gallery"
+msgstr ""
+
+#: inc/theme-about.php:50
+msgid "Visit Theme Demos"
+msgstr ""
+
+#: inc/theme-about.php:51
+msgid "Become a Happy Member"
+msgstr ""
+
+#: post-content.php:20
+msgid "SEARCH RESULTS"
+msgstr ""
+
+#: post-content.php:21
+msgid "Search Term"
+msgstr ""
+
+#: post-content.php:22
+msgid "Number of Results"
+msgstr ""
+
+#: post-content.php:55
+msgid "Previous"
+msgstr ""
+
+#: post-content.php:56
+msgid "Next"
+msgstr ""
+
+#: post-content.php:67
+msgid " Edit"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Beauty and Spa"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://d5creation.com/theme/beautyandspa"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D5 Creation"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://d5creation.com"
+msgstr ""
